@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(./images/pexels-eberhard-grossgasteiger-443446.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 560px;
+    width: 400px;
+    background-color: rgb(138, 229, 252);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    justify-content: center;
+}
+.input{
+    outline: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    outline-width: 10px;
+}
+.btn{
+    background-color: rgb(3, 179, 27);
+    color: white ;
+    outline: none;
+    border: none;
+    padding: 12px 12px 12px 12px;
+    border-radius: 5px;
+    margin: 12px 12px 12px 12px;
+    cursor: pointer;
+    margin-left: 160px;
+}
+.term{
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+}
+h3{
+    letter-spacing: 7px;
+    color: rgb(99, 99, 99);
+    font-family: monospace;
+    margin: 10px 20px;
+}
+h1{
+    margin: 10px 20px;
+    font-weight: 900;
+    display: flex;
+}
